@@ -1,0 +1,18 @@
+{
+  "name": "libreriasinc",
+  "version": "1.0.0",
+  "description": "Tu librería debe hacer solo:\r Lógica de sincronización\r Manejo de hashes, versiones, conflictos\r Lectura/escritura de SQLite\r Consumo del API remoto\r Tu app cliente debe decidir:\r Cuándo sincronizar\r Si hay internet o no\r Si sincroniza automáticamente o manualmente\r Si muestra un spinner, un mensaje, etc.\r Es como Firebase:\r Firebase SDK no verifica internet cada X segundos.\r Tu app sabe si hay internet y decide cuándo llamar sync().",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "vitest"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "vitest": "^4.0.7"
+  },
+  "dependencies": {
+    "better-sqlite3": "^12.4.1"
+  }
+}

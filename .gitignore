@@ -1,0 +1,8 @@
+#archivos
+*.env
+b.js
+ver.js
+porhacer.md 
+
+#carpetas
+**/node_modules/
